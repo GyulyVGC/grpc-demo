@@ -1,0 +1,13 @@
+[package]
+name = "grpc-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+grpc = "0.8.3"
+protobuf = "2.18.2"
+grpc-protobuf = "0.8.3"
+futures = "0.3.30"
+
+[build-dependencies]
+protoc-rust-grpc = "0.8.3"
